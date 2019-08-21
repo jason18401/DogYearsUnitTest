@@ -32,11 +32,7 @@ class DogYearsUnitTests: XCTestCase {
         let result = calc.evaluate(op: "−", arg1: 9.0, arg2: 2.0)
         XCTAssert(result == 7.0, "failed subtracting test")
     }
-    
-    func testClear(){
-        let result = calc.evaluate(op: "+", arg1: 2.0, arg2: 2.0)
-        calc.clear()
-    }
+
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
